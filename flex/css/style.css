@@ -1,0 +1,87 @@
+
+
+nav {
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(24, 203, 60);
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    padding-left: 20%;
+}
+
+section {
+    margin: auto;
+    border: 1px solid gray;   
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 65%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sign {
+    width: 30%;
+    color: green;
+    border: 1px solid green;
+}
+
+section hr {
+    width: 70%;
+}
+
+section .or {
+    margin: -19px auto 10px;
+    background-color: #fff;
+    width: 30px;
+}
+
+.email {
+    background-color: rgb(3, 198, 3);
+    color: white;
+    font-style: normal bold;
+    font-size: medium;
+    border: none;
+}
+
+.google {
+    background-color: rgb(50, 124, 214);
+    color: white;
+    font-style: normal bold;
+    font-size: medium;
+    border: none;
+}
+
+div.acount {
+    border-top: 1px gray;
+    padding-top: 30px;
+
+}
+
+section hr {
+    width: 50%;
+}
+
+section .do {
+    margin: -30px auto 10px;
+    background-color: #fff;
+    width: 198px;
+
+}
