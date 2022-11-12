@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.layer{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.header{
+    background-image: url(../img/bg.png);
+}
+
+.header .first{
+    display: flex;
+    padding: 50px;
+}
+
+.header .first .left{
+    flex: 1;
+}
+
+.header .first .left img{
+    margin-left: 40%;
+    width: 400px;
+    height: 500px;
+}
+
+.header .first .right{
+    flex: 1;
+}
+.header .first .right h1{
+    color: white;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.header .first .right p{
+    color: white;
+    margin-right: 9px;
+}
+.header .first .right a{
+    color: white;
+    margin: 5px;
+}
+.header .first .right .play{
+    margin: 40px;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: 24px;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+/*.cool-link ::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.cool-link :hover::after{
+  width: 100%;
+  transition:  width  .3s;
+}*/
+.feature{
+    background-image: url(../img/backgrond3.png);
+}
+
+.feature .layer .p-feature {
+    /*font-weight: bold;*/
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.feature .feature-icons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.feature-icons div {
+    width: 30%;
+    margin: auto;
+}
+
+.feature .layer .feature-icons div p{
+    color: rgba(0, 0, 0, 0.685);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.feature .layer .feature-icons div .circle-one{
+    border: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.feature .layer .feature-icons div .circle-two{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    right: 2px;
+    bottom: 1.5px;
+    position: relative;
+}
+
+.feature .layer .feature-icons div .circle-two i {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+}
+/* i{
+    margin: 20px;
+} */
+
+
+.check {
+    background-image: url(../img/bg.png);
+    color: white;
+  overflow: hidden;
+}
+
+.check .layer h3{
+    color: white;
+    margin-bottom: 80px;
+}
+
+.check .layer .newapp{
+    display: flex;
+
+}
+
+.check .layer .newapp .check-divs div{
+    margin-bottom: 50px;
+}
+
+.check .layer .newapp .check-divs div i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.check .layer .newapp .check-divs h5{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.check .layer .newapp .check-divs p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.781);
+    width: 80%;
+    margin-left: 11%;
+    text-align: justify;
+}
+
+.check .layer .newapp .check-image{
+height: 600px;
+width: 400px;
+
+
+}
+
+.screen{
+    background-image: url(../img/backgrond2.png);
+}
+.screen h3{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1) ;
+    transition: 1s;
+}
+ .box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box:hover{
+transform: scale(1.3);
+z-index: 2;
+}
+.girl{
+    background-color: rgba(74, 2, 137, 0.704);
+}
+.girl .layer .fast p{
+    color: white;
+    margin: 40px;
+    margin-left:40%;
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding: 5px;
+    margin-top: -100px;
+    text-align: justify;
+}
+.girl .layer .fast h4{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: -10px;
+    margin-left:-90px
+}
+.girl .layer .fast a{
+    color: white;
+    margin: 10px;
+    margin-top: -10px;
+    margin-left:-90px
+}
+.girl .layer .lura img{
+margin-right: 40%;
+
+}
+
+.contact{
+    background-color:rgb(27, 142, 209) ;
+}
+.teuch h3{
+    color: white;
+    margin: 20px;
+}
+.contact .layer p{
+    color: white;
+    font-size: 16px;
+    margin: 30px;
+}
+.contact .layer.last{
+    margin: auto;
+}
+
+button{
+    background:rgba(74, 2, 137, 0.704) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.contact.i {
+    margin: auto;
+    color:white;
+    width: 3%;
+    margin-bottom: 20px;
+}
+footer{
+    background: black;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
