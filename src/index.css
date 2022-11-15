@@ -1,0 +1,267 @@
+.Header-Nav {
+  padding: 0;
+  background-color: #fff !important;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 3px 8px #eee;
+}
+
+.Header-Nav .Nav-Container {
+  flex-direction: row-reverse;
+}
+
+.Header-Nav .Nav-Brand {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  color: #71787E;
+}
+
+.Header-Nav .Nav-Links .Link {
+  text-decoration: none;
+  color: #71787E;
+}
+
+.Header-Nav .Nav-Links .Link.active {
+  color: #1d75be;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.Header-Nav .Nav-Links .Link:hover {
+  color: #1d75be;
+}
+
+.Header-Nav .Nav-Brand h1 {
+  font-size: 26px;
+  color: #71787E;
+}
+
+
+.Header-Nav .Nav-Brand h1 span {
+  color: #1d75be;
+  padding: 0 7px;
+}
+
+.Header-Nav .Nav-Brand img {
+  width: 80px;
+}
+
+
+
+.App-Deploma {
+  padding: calc(80px + 90px) 0 80px 0;
+}
+
+.Main-Heading {
+  color: #71787E;
+  font-weight: normal;
+  width: fit-content;
+  margin: 0 auto 80px auto;
+  position: relative;
+}
+
+.Main-Heading::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 60px;
+  background-color: #1d75be;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Deploma-Content .Box {
+  margin: 0 auto;
+  position: relative;
+  min-height: 419.05px;
+}
+
+
+.Deploma-Content .Box .Card-Image {
+  transition: 0.5s;
+}
+
+.Deploma-Content .Box .Card-Image+.Hover-Btn {
+  display: none;
+  width: fit-content;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80px;
+}
+
+.Deploma-Content .Box .Card-Image:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.Deploma-Content .Box .Card-Image:hover+.Hover-Btn {
+  display: block;
+  pointer-events: none;
+  background-color: #1d75be !important;
+}
+
+.Deploma-Content .Box .Train-Image {
+  position: absolute;
+  width: 60px;
+  top: calc(50% - 20px);
+  right: 12px;
+  transform: translateY(-50%);
+  border: 5px solid #1d75be;
+  border-radius: 50%;
+}
+
+.Deploma-Content .Box .Train-Name {
+  margin-top: 50px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 17px;
+  color: #71787E;
+}
+
+.Deploma-Content .Box .Card-Title {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Deploma-Content .Box .Card-Title::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  right: 0;
+  bottom: -10px;
+}
+
+.Deploma-Content .Box .Card-Bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Deploma-Content .Box .Card-Bottom span {
+  color: #1d75be;
+}
+
+.Deploma-Content .Box .Card-Bottom .Card-Btn {
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #1d75be !important;
+}
+
+.App-Contact {
+  padding-top: calc(80px + 90px);
+  padding-bottom: 60px;
+}
+
+.Contact-Content .Main-Heading {
+  color: #71787E;
+  font-weight: 300;
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.Contact-Content .Main-Heading::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 60px;
+  background-color: #ffc107;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.Contact-Content .Main-Heading+p {
+  margin-bottom: 60px;
+}
+
+.Contact-Content .Send-Part,
+.Contact-Content .Call-Part {
+  margin-bottom: 60px;
+}
+
+
+.Contact-Content .Send-Content .form-group {
+  margin-bottom: 20px;
+}
+
+.Contact-Content .Send-Content .form-group input {
+  border-radius: 0;
+}
+
+.Contact-Content .Send-Content .form-group input.btn {
+  background-color: #1d75be !important;
+}
+
+.Call-Content .Con {
+  margin-bottom: 20px;
+}
+
+.Call-Content .Con h4 {
+  color: #71787E;
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.Call-Content .Con div .Icon {
+  font-size: 18px;
+  margin-left: 15px;
+  color: #ffc107;
+}
+
+.Call-Content .Con div .Loc {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .Header-Nav .Nav-Brand h1 {
+      font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header-Nav .Nav-Brand img {
+      width: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Deploma-Content .Box {
+      margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Deploma-Content .Box {
+      margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Contact-Content .Main-Heading {
+      margin: 0 auto 60px auto;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .Contact-Content .Send-Part,
+  .Contact-Content .Call-Part {
+      text-align: center;
+  }
+}
